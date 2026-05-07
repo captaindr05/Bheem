@@ -1,0 +1,16 @@
+
+
+1. first command
+hadoop fs -put Desktop/log
+
+
+2.after export run this command
+ hadoop jar Driver.jar Driver.Driver log dri16
+
+
+3. showing log count 
+hadoop fs -cat dri16/part-r-00000
+
+
+4.reset output
+hadoop fs -rm -r dri16
